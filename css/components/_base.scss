@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+}
+
+body{
+    min-height:100vh;
+    line-height: 1.5;
+
+}
+
+html{
+    font-size:18px;
+    scroll-behavior: smooth;
+}
+
+.attribution { 
+    position:fixed;
+    bottom:0;
+    font-size: 11px; 
+    text-align: center;
+    a { color: hsl(228, 45%, 44%); }
+}
+li{
+    list-style: none;
+    a{
+        text-decoration: none;
+
+    }
+}
+
+.desktop-img,.mobile-img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.desktop-img{
+    display: none;
+    max-width:100%;
+}

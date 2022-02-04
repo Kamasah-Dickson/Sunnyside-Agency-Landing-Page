@@ -1,0 +1,120 @@
+.about-section{
+     height: 100%;
+     display: grid;
+     grid-auto-rows: repeat(3.1fr);
+     .img{
+          margin-top: -1rem;
+     }
+     .img1{
+          grid-row: 1/2;
+          img{
+               overflow: hidden;
+               object-fit: cover;
+          }
+     }
+     .box1{
+          grid-row: 2/3;
+     }
+     
+     
+     .box1,.box2{
+          max-width: 500px;
+          text-align: center;
+          padding:4.4rem 1rem;
+          margin:0 auto;
+          .content{
+               h2{
+                    font-size: 1.8rem;
+                    line-height: 40px;
+                    text-transform: capitalize;
+                    font-weight: 900;
+                    margin-bottom: .8em;
+                    color:$desaturate-blue;
+                    
+               }
+               p{
+                    font-size: .9rem;
+                    line-height: 30px;
+                    margin-bottom: 1.5rem;
+                    color:$grayish-blue;
+                    font-weight: 700;
+               }
+               a{
+                    color:$desaturate-blue;
+                    text-decoration: none;
+                    font-size:1.1rem;
+                    letter-spacing: 2px;
+                    font-weight: 700;
+                    cursor: pointer;
+               }
+          }
+     }
+     .box2{
+          .content{
+               h2{
+                    padding:0 .7rem;
+                    font-size: 1.5rem;
+               }
+               p{
+                    margin-bottom: 1.6rem;
+               }
+               
+          }
+     }
+     
+     .box3{
+          position: relative;
+          .content{
+               text-align: center;
+               position: absolute;
+               bottom:3.4rem;
+               padding:0 .7rem;
+               h2{
+                    font-size:1.4rem;
+                    letter-spacing: 1px;
+                    margin-bottom: 1.5rem;
+                    font-weight: 900;
+                    text-transform: capitalize;
+                    color:$graphic-design-text;
+               }
+               p{
+                    color:$graphic-design-text;
+                    font-size: .8rem;
+                    line-height: 26px;
+                    font-weight: 700;
+               }
+               
+          }
+     }
+
+     .box4{
+          position: relative;
+
+          .content{
+               text-align: center;
+               position: absolute;
+               bottom:3.4rem;
+               padding:0 .7rem;
+               h2{
+                    font-size:1.4rem;
+                    letter-spacing: 1px;
+                    margin-bottom: 1.5rem;
+                    font-weight: 900;
+                    text-transform: capitalize;
+                    color:$photography-text;
+               }
+               p{
+                    color:$photography-text;
+                    font-size: .8rem;
+                    line-height: 26px;
+                    font-weight: 700;
+               }
+               
+          }
+     }
+     .img2{
+          margin-top: -.5rem;
+     }
+  
+     
+}
