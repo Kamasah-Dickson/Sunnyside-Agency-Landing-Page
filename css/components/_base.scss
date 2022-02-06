@@ -3,12 +3,12 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Fraunces', serif;
+    list-style:none;
 }
 
 body{
     min-height:100vh;
-    line-height: 1.5;
-
+    scroll-behavior:smooth;
 }
 
 html{
@@ -32,11 +32,12 @@ li{
 }
 
 .desktop-img,.mobile-img{
-    max-width: 100%;
+   width: 100%;
     object-fit: cover;
+    height: 500px;
+    display:block;
 }
 
 .desktop-img{
     display: none;
-    max-width:100%;
 }
